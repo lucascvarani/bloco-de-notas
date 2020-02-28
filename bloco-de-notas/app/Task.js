@@ -11,7 +11,7 @@ import {
 class Task extends React.Component{
   render(){
     return(
-      <View> 
+      <View style={{marginTop: 50}}> 
         <TarefaVoltar navigation={this.props.navigation} title={this.props.navigation.getParam('title')}/>
         <View>
           <Text style={{fontSize:30, color: 'green', fontWeight: 'bold'}}>Conteúdo</Text>

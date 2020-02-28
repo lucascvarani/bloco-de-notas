@@ -19,6 +19,7 @@ class NovaTarefa extends React.Component{
         flexDirection: 'row',
         height: 60,
         justifyContent: 'center',
+        marginTop: 50
         }}> 
 
         <View style={{marginLeft: 20}}><Text style={{textAlign: 'center', textAlignVertical: 'center', fontSize: 40, color: 'orange'}}>Minhas Tarefas</Text></View>

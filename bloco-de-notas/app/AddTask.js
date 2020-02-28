@@ -94,7 +94,7 @@ class AddTask extends React.Component{
   render(){
     return(
       <View style={{
-        
+        marginTop: 50
         }}> 
         
         <NovaTarefa navigation={this.props.navigation} save={this.saveTask}/>

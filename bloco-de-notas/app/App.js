@@ -133,7 +133,7 @@ class App extends React.Component{
             }        
             }}      
         />
-        <Button onPress={this.clearAsyncStorage} title='clear'></Button>
+        <Button onPress={this.clearAsyncStorage} title='Clear All'></Button>
         </View>
         
         :
